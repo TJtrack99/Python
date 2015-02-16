@@ -1,6 +1,17 @@
-print "bowling program"
-int frame[][] = new int[11][2]
-for i in range(len(frame)):
-    for j in range(len(frame[i])):
-      print "Input throw:"
+print 'bowling program'
+throw1 = zeros(11)
+throw2 = zeros(11)
+extra = zeros(11)
+game = [throw1, throw2, extra]
+i = 0
+j = 0
+throw = 0
+while(i<len(throw1)):
+    while(j<len(throw2):
+      throw = input('Input throw:')
+      if(throw==10):
+          game[i][j] = 10
+          if(j==0):
+              game[i][j+1]=0
+              
       
