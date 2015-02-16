@@ -13,5 +13,8 @@ while(i<len(throw1)):
           game[i][j] = 10
           if(j==0):
               game[i][j+1]=0
+              game[i][j+2]=2
+              j=2
               
-      
+        j++      
+      i++
